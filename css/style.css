@@ -1,0 +1,48 @@
+/*body {
+	background-color: LightGray;
+}*/
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1;	
+}
+
+
+div {
+	border: 1px solid Chocolate;
+}
+
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(221, 221, 221);
+	z-index: 9999;
+}
+
+.top-navigation > .logo{
+	height: 4.375rem;
+}
+
+.top-navigation > .content {
+	height: 4.375rem;
+}
+
+.top-navigation .links {
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+
+ul {
+	
+}
+.content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem
+}
