@@ -12,13 +12,14 @@ body {
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
-	line-height: 1;	
+	line-height: 1;
+	margin:0;	
 }
 
 .content {
 	padding: 0 0.938rem;
 	margin: 0 auto;
-	min-width: 37.5rem
+	min-width: 37.5rem;
 }
 
 ol, ul {
@@ -192,6 +193,11 @@ button:hover {
     border-top: 1px solid #eaebec;
     margin: 1.313rem 0;
 }
+
+.social .content ul {
+	padding: 0;
+}
+
 .social .icons > li {
     border-radius: 1.25rem;
     width: 2.5rem;
